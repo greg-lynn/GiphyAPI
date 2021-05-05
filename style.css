@@ -3,6 +3,28 @@
   /* display: grid */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-left: 15px;
   /*   grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); */
   }
+
+h2 {
+  text-align: center;
+}
+  
+#search-form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+  
+#giphy-results img {
+  /* border: 1px solid red; */
+  object-fit: fill;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+  
